@@ -1,0 +1,78 @@
+main {
+    display: grid;
+    grid-template-rows: 2rf;
+}
+
+/*STATUS*/
+
+.status{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.used{
+    background-color: aquamarine;
+}
+
+.free{
+    background-color: rgb(150, 127, 255);
+}
+
+.healthHD{
+    background-color: brown;
+}
+
+/* FOTOS */
+
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.photosDeby{
+    background-color: aquamarine;
+}
+
+.photosJeff{
+    background-color: rgb(150, 127, 255);
+}
+
+/* MÚSICAS, SÉRIES E ANIMES */
+
+.musics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.movies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.series{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.animes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.recent{
+    background-color: rgb(226, 11, 58);
+}
+
+.recent2{
+    background-color: blueviolet;
+}
+
+.recent3{
+    background-color:coral;
+}
+
+/*TEXT*/
+
+h1{
+    font-size: 50px;
+}
